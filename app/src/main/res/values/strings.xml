@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Jadwal Bola Live Televisi</string>
+
+    <string name="date">%1$s, %2$s %3$s WIB</string>
+</resources>
