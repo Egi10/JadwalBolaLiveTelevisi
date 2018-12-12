@@ -11,20 +11,25 @@ class MainPresenter(private val view: MainView) {
         view.showLoading()
 
         GlobalScope.launch(Dispatchers.Main) {
-            val config = ApiConfig.config()
-            val call = config.getJadwalBola(BuildConfig.API_KEY)
-            val response = call.await()
+            try {
+                val config = ApiConfig.config()
+                val call = config.getJadwalBola(BuildConfig.API_KEY)
+                val response = call.await()
 
-            when(response.code()) {
-                200 -> {
-                    view.onSuccess(response.body()?.result)
-                }
+                when(response.code()) {
+                    200 -> {
+                        view.onSuccess(response.body()?.result)
+                    }
 
-                else -> {
-                    view.onError(response.message())
+                    else -> {
+                        view.onError(response.message())
+                    }
                 }
+                view.hideLoading()
+            } catch (e: Exception) {
+                view.onError(e.message.toString())
+                view.hideLoading()
             }
-            view.hideLoading()
         }
     }
 }
