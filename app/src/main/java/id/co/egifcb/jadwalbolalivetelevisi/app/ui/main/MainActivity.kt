@@ -1,13 +1,13 @@
-package id.co.egifcb.jadwalbolalivetelevisi.jadwalbolalivetelevisi.ui.main
+package id.co.egifcb.jadwalbolalivetelevisi.app.ui.main
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
 import android.util.Log
 import android.widget.Toast
-import id.co.egifcb.jadwalbolalivetelevisi.jadwalbolalivetelevisi.R
-import id.co.egifcb.jadwalbolalivetelevisi.jadwalbolalivetelevisi.adapter.AdapterJadwalBola
-import id.co.egifcb.jadwalbolalivetelevisi.jadwalbolalivetelevisi.api.ResultItem
+import id.co.egifcb.jadwalbolalivetelevisi.app.R
+import id.co.egifcb.jadwalbolalivetelevisi.app.adapter.AdapterJadwalBola
+import id.co.egifcb.jadwalbolalivetelevisi.app.api.ResultItem
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), MainView {

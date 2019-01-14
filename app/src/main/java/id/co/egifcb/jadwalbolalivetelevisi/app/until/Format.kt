@@ -1,4 +1,4 @@
-package id.co.egifcb.jadwalbolalivetelevisi.jadwalbolalivetelevisi.until
+package id.co.egifcb.jadwalbolalivetelevisi.app.until
 
 import java.text.SimpleDateFormat
 import java.util.*

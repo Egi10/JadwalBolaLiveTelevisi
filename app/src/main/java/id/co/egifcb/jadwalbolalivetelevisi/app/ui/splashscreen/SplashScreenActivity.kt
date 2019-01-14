@@ -1,11 +1,11 @@
-package id.co.egifcb.jadwalbolalivetelevisi.jadwalbolalivetelevisi.ui.splashscreen
+package id.co.egifcb.jadwalbolalivetelevisi.app.ui.splashscreen
 
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.WindowManager
-import id.co.egifcb.jadwalbolalivetelevisi.jadwalbolalivetelevisi.R
-import id.co.egifcb.jadwalbolalivetelevisi.jadwalbolalivetelevisi.ui.main.MainActivity
+import id.co.egifcb.jadwalbolalivetelevisi.app.R
+import id.co.egifcb.jadwalbolalivetelevisi.app.ui.main.MainActivity
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

@@ -1,4 +1,4 @@
-package id.co.egifcb.jadwalbolalivetelevisi.jadwalbolalivetelevisi
+package id.co.egifcb.jadwalbolalivetelevisi.app
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

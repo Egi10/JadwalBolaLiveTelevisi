@@ -1,4 +1,4 @@
-package id.co.egifcb.jadwalbolalivetelevisi.jadwalbolalivetelevisi
+package id.co.egifcb.jadwalbolalivetelevisi.app
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

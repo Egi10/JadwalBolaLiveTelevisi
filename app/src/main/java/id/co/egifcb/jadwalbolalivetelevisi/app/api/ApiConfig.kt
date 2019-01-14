@@ -1,7 +1,7 @@
-package id.co.egifcb.jadwalbolalivetelevisi.jadwalbolalivetelevisi.api
+package id.co.egifcb.jadwalbolalivetelevisi.app.api
 
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
-import id.co.egifcb.jadwalbolalivetelevisi.jadwalbolalivetelevisi.BuildConfig
+import id.co.egifcb.jadwalbolalivetelevisi.app.BuildConfig
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

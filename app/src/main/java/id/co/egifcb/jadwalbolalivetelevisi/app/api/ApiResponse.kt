@@ -1,4 +1,4 @@
-package id.co.egifcb.jadwalbolalivetelevisi.jadwalbolalivetelevisi.api
+package id.co.egifcb.jadwalbolalivetelevisi.app.api
 
 import com.google.gson.annotations.SerializedName
 

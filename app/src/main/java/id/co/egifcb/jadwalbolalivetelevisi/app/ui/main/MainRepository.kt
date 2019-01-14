@@ -1,7 +1,7 @@
-package id.co.egifcb.jadwalbolalivetelevisi.jadwalbolalivetelevisi.ui.main
+package id.co.egifcb.jadwalbolalivetelevisi.app.ui.main
 
-import id.co.egifcb.jadwalbolalivetelevisi.jadwalbolalivetelevisi.BuildConfig
-import id.co.egifcb.jadwalbolalivetelevisi.jadwalbolalivetelevisi.api.ApiConfig
+import id.co.egifcb.jadwalbolalivetelevisi.app.BuildConfig
+import id.co.egifcb.jadwalbolalivetelevisi.app.api.ApiConfig
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

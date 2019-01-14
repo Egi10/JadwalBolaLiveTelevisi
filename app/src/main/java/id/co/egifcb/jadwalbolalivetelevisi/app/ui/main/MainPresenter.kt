@@ -1,4 +1,4 @@
-package id.co.egifcb.jadwalbolalivetelevisi.jadwalbolalivetelevisi.ui.main
+package id.co.egifcb.jadwalbolalivetelevisi.app.ui.main
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope

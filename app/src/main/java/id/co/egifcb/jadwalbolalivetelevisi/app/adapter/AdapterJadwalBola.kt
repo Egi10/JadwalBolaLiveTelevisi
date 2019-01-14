@@ -1,13 +1,13 @@
-package id.co.egifcb.jadwalbolalivetelevisi.jadwalbolalivetelevisi.adapter
+package id.co.egifcb.jadwalbolalivetelevisi.app.adapter
 
 import android.content.Context
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import id.co.egifcb.jadwalbolalivetelevisi.jadwalbolalivetelevisi.R
-import id.co.egifcb.jadwalbolalivetelevisi.jadwalbolalivetelevisi.api.ResultItem
-import id.co.egifcb.jadwalbolalivetelevisi.jadwalbolalivetelevisi.until.formatDate
+import id.co.egifcb.jadwalbolalivetelevisi.app.R
+import id.co.egifcb.jadwalbolalivetelevisi.app.api.ResultItem
+import id.co.egifcb.jadwalbolalivetelevisi.app.until.formatDate
 import kotlinx.android.synthetic.main.layout_list_jadwal_bola.view.*
 
 class AdapterJadwalBola(private val context: Context, private val list: List<ResultItem>)
