@@ -1,9 +1,8 @@
 package id.co.egifcb.jadwalbolalivetelevisi.jadwalbolalivetelevisi.ui.main
 
-import id.co.egifcb.jadwalbolalivetelevisi.jadwalbolalivetelevisi.BuildConfig
-import id.co.egifcb.jadwalbolalivetelevisi.jadwalbolalivetelevisi.api.ApiConfig
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.async
 import kotlinx.coroutines.launch
 
 class MainPresenter(private val view: MainView) {
@@ -12,20 +11,8 @@ class MainPresenter(private val view: MainView) {
 
         GlobalScope.launch(Dispatchers.Main) {
             try {
-                val config = ApiConfig.config()
-                val call = config.getJadwalBola(BuildConfig.API_KEY)
-                val response = call.await()
-
-                when(response.code()) {
-                    200 -> {
-                        view.onSuccess(response.body()?.result)
-                    }
-
-                    else -> {
-                        view.onError(response.message())
-                    }
-                }
-                view.hideLoading()
+                val call = async { MainRepository(view).tes() }
+                call.await()
             } catch (e: Exception) {
                 view.onError(e.message.toString())
                 view.hideLoading()
