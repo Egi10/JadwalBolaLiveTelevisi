@@ -15,7 +15,7 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
         buildConfigField "String", "BASE_URL", "\"https://rest.farzain.com/api/\""
-        buildConfigField "String", "API_KEY", "\"vIN08EOm0VDQDOLBr6nZAXxFK\""
+        buildConfigField "String", "API_KEY", "\"bqE2icwhaZPzMsekBiTMblHqu""
     }
     buildTypes {
         release {
